@@ -12,14 +12,16 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     public Animator animator;
 
+    public Joystick joystick;
+
     Vector2 movement;
     Vector2 mousePos;
 
     // Input Methods
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = joystick.Horizontal;
+        movement.y = joystick.Vertical;
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
