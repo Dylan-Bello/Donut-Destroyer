@@ -18,11 +18,14 @@ public class Player : MonoBehaviour
     void Update()
     {
         Vector2 moveVec = new Vector2 (joystickL.Horizontal, joystickL.Vertical);
-
-
         Vector3 lookVec = new Vector3 (joystickR.Horizontal, joystickR.Vertical, 4000);
 
-        transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
+
+        
         transform.Translate(moveVec * Time.deltaTime * speed, Space.World);
+        transform.rotation = Quaternion.LookRotation(lookVec, Vector3.back);
+
     }
+
+    
 }

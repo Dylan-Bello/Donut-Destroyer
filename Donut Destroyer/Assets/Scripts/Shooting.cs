@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public Transform firePoint;
     public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireDelay = 0.5f;
 
     public float bulletForce = 20f;
 
