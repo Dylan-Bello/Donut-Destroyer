@@ -28,4 +28,6 @@ public class EnemyFollow : MonoBehaviour
         if (other.tag == "Player")
             Destroy(this.gameObject);
     }
+
+   
 }

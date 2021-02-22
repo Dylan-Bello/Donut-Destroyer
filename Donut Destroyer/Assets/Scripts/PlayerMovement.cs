@@ -19,11 +19,15 @@ public class PlayerMovement : MonoBehaviour
     //public float fireDelay = 0.5f;
     public float bulletForce = 10f;
 
-    public Joystick moveJoystick;
+    public My_Joystick moveJoystick;
+    public My_Joystick shootJoystick;
 
     private Vector2 moveVelocity;
 
     private bool hit = true;
+
+    [HideInInspector]
+    public bool canShoot;
 
     
 
@@ -40,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         Rotation();
 
         //Shoot Function
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && canShoot)
             Shoot();
 
         //Bounds
@@ -56,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        if (moveJoystick.InputDir != Vector3.zero)
+        if(moveJoystick.InputDir != Vector3.zero)
             moveInput = moveJoystick.InputDir;
         
         moveVelocity = moveInput.normalized * moveSpeed;
