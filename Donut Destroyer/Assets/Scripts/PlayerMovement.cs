@@ -6,21 +6,48 @@ public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
     public float moveSpeed = 5f;
+
+    
+    public int health = 10;
     
     public Rigidbody2D player;
     public Camera cam;
-    public Animator animator;
+    public Animator anim;
 
-    public Joystick joystick;
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    //public float fireDelay = 0.5f;
+    public float bulletForce = 10f;
+
+    public Joystick moveJoystick;
 
     private Vector2 moveVelocity;
+
+    private bool hit = true;
+
+    
 
     private void Awake()
     {
         player = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+
+        anim.SetBool("isRunning", false);
     }
 
     private void Update()
+    {
+        Rotation();
+
+        //Shoot Function
+        if (Input.GetMouseButton(0))
+            Shoot();
+
+        //Bounds
+        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, ., ), MathfClamp(transform.position.y., ));
+    }
+
+    private void FixedUpdate()
     {
         Movement();
     }
@@ -28,10 +55,53 @@ public class PlayerMovement : MonoBehaviour
     void Movement()
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        if (moveJoystick.InputDir != Vector3.zero)
+            moveInput = moveJoystick.InputDir;
+        
         moveVelocity = moveInput.normalized * moveSpeed;
         player.MovePosition(player.position + moveVelocity * Time.fixedDeltaTime);
+
+        if (moveVelocity == Vector2.zero)
+            anim.SetBool("isRunning", false);
+        else
+            anim.SetBool("isRunning", true);
     }
 
+    void Rotation()
+    {
+        Vector2 dir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 10 * Time.deltaTime);
+    }
+
+    void Shoot()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+    }
+
+    IEnumerator HitBoxOff()
+    {
+        hit = false;
+        yield return new WaitForSeconds(1.5f);
+        hit = true;
+    }
+
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if(target.tag == "Enemy")
+        {
+            if (hit)
+            {
+                StartCoroutine(HitBoxOff());
+                health--;
+            }
+            
+        }
+    }
     /*Vector2 movement;
     Vector2 mousePos;
 
