@@ -11,13 +11,15 @@ public class PlayerMovement : MonoBehaviour
     public int health = 10;
     
     public Rigidbody2D player;
-    public Camera cam;
+    //public Camera cam;
     public Animator anim;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
     //public float fireDelay = 0.5f;
     public float bulletForce = 10f;
+    public float fireRate = 0.5F;
+    private float nextFire = 0.0F;
 
     public My_Joystick moveJoystick;
     public My_Joystick shootJoystick;
@@ -27,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private bool hit = true;
 
     [HideInInspector]
-    public bool canShoot;
+    public bool canShoot = true;
 
     
 
@@ -44,8 +46,12 @@ public class PlayerMovement : MonoBehaviour
         Rotation();
 
         //Shoot Function
-        if (Input.GetMouseButton(0) && canShoot)
+        if (Input.GetMouseButton(0) && (Time.time > nextFire) && canShoot)
+        {
+            nextFire = Time.time + fireRate;
             Shoot();
+        }
+            
 
         //Bounds
         //transform.position = new Vector2(Mathf.Clamp(transform.position.x, ., ), MathfClamp(transform.position.y., ));
@@ -76,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 dir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        if (shootJoystick.InputDir != Vector3.zero)
+            angle = Mathf.Atan2(shootJoystick.InputDir.y, shootJoystick.InputDir.x) * Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, 10 * Time.deltaTime);
     }
@@ -85,6 +93,8 @@ public class PlayerMovement : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+
+        
     }
 
     IEnumerator HitBoxOff()

@@ -12,7 +12,7 @@ public class My_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     [HideInInspector]
     public Vector3 InputDir;
-    [HideInInspector]
+    
     public bool shoot;
 
    
@@ -34,6 +34,8 @@ public class My_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
             Touch.rectTransform.anchoredPosition = new Vector3(InputDir.x * (Threshold.rectTransform.sizeDelta.x / 2.5f), InputDir.y * (Threshold.rectTransform.sizeDelta.y / 2.5f));
 
+            if (shoot)
+                FindObjectOfType<PlayerMovement>().canShoot = true;
         }
     }
 
@@ -45,6 +47,10 @@ public class My_Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        if(!shoot)
+            InputDir = Vector3.zero;
+        else
+            FindObjectOfType<PlayerMovement>().canShoot = false;
         InputDir = Vector3.zero;
         Touch.rectTransform.anchoredPosition = Vector3.zero;
     }

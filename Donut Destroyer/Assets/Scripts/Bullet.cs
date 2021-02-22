@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
-        Destroy(this.gameObject, 5f);
+        Destroy(this.gameObject, 2f);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
