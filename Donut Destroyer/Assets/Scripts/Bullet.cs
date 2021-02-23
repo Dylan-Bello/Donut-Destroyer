@@ -4,30 +4,65 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private float speed = 5f;
+    //private float speed = 10f;
 
-    private Vector2 dir;
+   // private Vector2 dir;
 
     //public GameObject hitEffect;
 
-    void Start()
-    {
-        dir = GameObject.Find("Dir").transform.position;
-        transform.position = GameObject.Find("FirePoint").transform.position;
-    }
+   // void Start()
+   // {
+    //    dir = GameObject.Find("Dir").transform.position;
+    //    transform.position = GameObject.Find("FirePoint").transform.position;
+   // }
 
-    void Update()
-    {
-        transform.position = Vector2.MoveTowards(transform.position, dir, speed * Time.deltaTime);
-        Destroy(this.gameObject, 2f);
-    }
+    
+    public float bulletSpeed =1f;
+    public int damageToTake;
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {/*
-        //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        //Destroy(effect, 5f);*/
-        //Destroy(this.gameObject);
+
+    void Awake()
+    {
+        Destroy(this.gameObject, 3f);
+
+    }
+    void FixedUpdate()
+    {
+        Vector3 pos = transform.position;
+        Vector3 velocity = new Vector3(0 * Time.deltaTime, bulletSpeed);
+        pos += transform.rotation * velocity;
+        transform.position = pos;
+
+        //Debug.Log("Working");
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyFollow>().TakeDamage(damageToTake);
+
+
+
+            Destroy(this.gameObject);
+
+            //Debug.Log("Bullet Hit!");
+        }
+
+        if (other.gameObject.tag == "Player")
+        {
+            other.gameObject.GetComponent<PlayerHealthManager>().TakeDamage(damageToTake);
+
+
+
+            Destroy(this.gameObject);
+
+            //Debug.Log("Bullet Hit!");
+        }
+        //Debug.Log("Collision Detected");
     }
 
 
 }
+
+
+//}

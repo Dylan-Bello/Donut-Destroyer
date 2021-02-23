@@ -140,7 +140,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f086b9111cda7f94a97d7398eecb0a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 1
+  startingHealth: 20
+  currentHealth: 0
+  damageToTake: 0
+  damageToDeal: 1
+  scoreValue: 10
+  xpValue: 1
+--- !u!114 &44302743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44302738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285e7aeab3b6322458a9eef224cbdfaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 854909396}
+        m_TargetAssemblyTypeName: PlayerHealthManager, Assembly-CSharp
+        m_MethodName: TakeDamage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &94195183
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,7 +228,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -238,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 854909389}
-  timeOffset: 0
+  timeOffset: 10
   posOffset: {x: 0, y: 0}
 --- !u!1 &104891651
 GameObject:
@@ -351,6 +384,17 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 451046788636067887, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
   m_PrefabInstance: {fileID: 451046788930939361}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &854909396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7098839887848418250, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
+  m_PrefabInstance: {fileID: 451046788930939361}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854909389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a5e865669258a4d99b9ce72b2d2b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1562719763
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,9 +596,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirePoint
       objectReference: {fileID: 0}
+    - target: {fileID: 1696514852622504971, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 451046788636067893, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
     - {fileID: 451046788636067886, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f2b74edef30bdc54d96bfe40ec879c48, type: 3}
 --- !u!1001 &5076057130722951328
 PrefabInstance:
@@ -839,7 +888,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7961903451539556150, guid: 48b5de7214fc8604fba5347be15b3f0c, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6601721692395033608, guid: 48b5de7214fc8604fba5347be15b3f0c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 48b5de7214fc8604fba5347be15b3f0c, type: 3}

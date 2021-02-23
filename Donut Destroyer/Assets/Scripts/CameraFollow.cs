@@ -41,9 +41,9 @@ public class CameraFollow : MonoBehaviour
         //move topwards player
         transform.position = Vector3.Lerp(startPos, endPos, timeOffset * Time.deltaTime);
 
-        transform.position = new Vector3(
-            Mathf.Clamp(endPos.x, -700f, 920f),
-            Mathf.Clamp(endPos.y, -50f, 185f), transform.position.z);
+       // transform.position = new Vector3(
+            //Mathf.Clamp(endPos.x, -700f, 920f),
+            //Mathf.Clamp(endPos.y, -50f, 185f), transform.position.z);
     }
 
 

@@ -5,10 +5,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float moveSpeed = 5f;
+    public float xp = 0;
+    public float xpForNextLevel = 10;
+    public int level = 1;
 
-    
-    public int health = 10;
+    public float moveSpeed = 7f;
+
+    private PlayerHealthManager health;
+    //public int health = 10;
     
     public Rigidbody2D player;
     //public Camera cam;
@@ -26,12 +30,15 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 moveVelocity;
 
-    private bool hit = true;
+    //private bool hit = true;
 
     [HideInInspector]
     public bool canShoot = true;
 
-    
+    private void Start()
+    {
+        SetXpForNextLevel();
+    }
 
     private void Awake()
     {
@@ -39,6 +46,9 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
 
         anim.SetBool("isRunning", false);
+
+        
+        health = this.GetComponent<PlayerHealthManager>();
     }
 
     private void Update()
@@ -51,7 +61,14 @@ public class PlayerMovement : MonoBehaviour
             nextFire = Time.time + fireRate;
             Shoot();
         }
-            
+
+        //Level Up
+        if (xp >= xpForNextLevel)
+        {
+            LevelUp();
+            health.RegenHealthFull();
+        }
+
 
         //Bounds
         //transform.position = new Vector2(Mathf.Clamp(transform.position.x, ., ), MathfClamp(transform.position.y., ));
@@ -91,13 +108,35 @@ public class PlayerMovement : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        //rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
 
         
     }
 
-    IEnumerator HitBoxOff()
+    void SetXpForNextLevel()
+    {
+        xpForNextLevel = (10f + (level * level * 1f));
+        Debug.Log("xpForNextLevel " + xpForNextLevel);
+    }
+
+    void LevelUp()
+    {
+        xp = 0f;
+        level++;
+
+        Debug.Log("level" + level);
+        SetXpForNextLevel();
+    }
+
+    public void GainXP(int xpToGain)
+    {
+        xp += xpToGain;
+        Debug.Log("Gained " + xpToGain + " XP, Current Xp = " + xp + ", XP needed to reach next Level = " + xpForNextLevel);
+    }
+
+
+    /*IEnumerator HitBoxOff()
     {
         hit = false;
         yield return new WaitForSeconds(1.5f);
@@ -116,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
             
         }
     }
-    /*Vector2 movement;
+    Vector2 movement;
     Vector2 mousePos;
 
 

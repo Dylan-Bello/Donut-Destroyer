@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1696514852622504971}
   - component: {fileID: 451046788636067887}
   - component: {fileID: -3941844170469515346}
+  - component: {fileID: 7098839887848418250}
   m_Layer: 0
   m_Name: Steve
   m_TagString: Player
@@ -165,16 +166,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 493850eb38ac9644ea1101e5e1b11ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xp: 0
+  xpForNextLevel: 10
+  level: 1
   moveSpeed: 5
-  health: 10
   player: {fileID: 451046788636067888}
   anim: {fileID: 0}
   bulletPrefab: {fileID: 6538444231461357103, guid: 9c11cbb1ed2071249b2d82c4940aa7b9, type: 3}
   firePoint: {fileID: 451046789650097955}
   bulletForce: 10
+  fireRate: 0.5
   moveJoystick: {fileID: 5076057128903815867, guid: a2ae050556d217b45bae2291de90f32a, type: 3}
   shootJoystick: {fileID: 6915977576413305976, guid: 4a738566302d3da4abab8fcf8e8bc78f, type: 3}
   canShoot: 1
+--- !u!114 &7098839887848418250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451046788636067884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a5e865669258a4d99b9ce72b2d2b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 50
+  currentHealth: 0
+  regenRate: 0
 --- !u!1 &451046789650097952
 GameObject:
   m_ObjectHideFlags: 0

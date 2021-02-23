@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8235727529315649078}
   - component: {fileID: 3131631187086444013}
   - component: {fileID: 5360975976507677582}
+  - component: {fileID: 5785256476755691162}
   m_Layer: 0
   m_Name: Coffee Blast
   m_TagString: Bullet
@@ -144,3 +145,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7fd25d63cc279a4cb3c5ba70d4742bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 1
+  damageToTake: 1
+--- !u!114 &5785256476755691162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6538444231461357103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285e7aeab3b6322458a9eef224cbdfaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6601721692395033608, guid: 48b5de7214fc8604fba5347be15b3f0c, type: 3}
+        m_TargetAssemblyTypeName: EnemyFollow, Assembly-CSharp
+        m_MethodName: TakeDamage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
