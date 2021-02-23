@@ -9,6 +9,10 @@ public class PlayerHealthManager : MonoBehaviour
     public int currentHealth;
     public int regenRate;
 
+    public AudioClip hitClip;
+    public AudioClip deathClip;
+
+
     //public Healthbar healthBar;
 
     // Start is called before the first frame update
@@ -26,6 +30,7 @@ public class PlayerHealthManager : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            SoundManager.instance.PlaySoundFX(deathClip);
             Destroy(this.gameObject);
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
@@ -42,7 +47,7 @@ public class PlayerHealthManager : MonoBehaviour
     public void TakeDamage(int damageToTake)
     {
         currentHealth -= damageToTake;
-
+        SoundManager.instance.PlaySoundFX(hitClip);
         //healthBar.SetHealth(playerCurrentHealth);
     }
 

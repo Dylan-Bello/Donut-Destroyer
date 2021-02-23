@@ -48,7 +48,7 @@ public class Bullet : MonoBehaviour
             //Debug.Log("Bullet Hit!");
         }
 
-        if (other.gameObject.tag == "Player")
+        /*if (other.gameObject.tag == "Player")
         {
             other.gameObject.GetComponent<PlayerHealthManager>().TakeDamage(damageToTake);
 
@@ -58,7 +58,7 @@ public class Bullet : MonoBehaviour
 
             //Debug.Log("Bullet Hit!");
         }
-        //Debug.Log("Collision Detected");
+        //Debug.Log("Collision Detected");*/
     }
 
 

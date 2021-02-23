@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D player;
     //public Camera cam;
     public Animator anim;
+    public AudioClip shootClip;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
@@ -110,7 +111,7 @@ public class PlayerMovement : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         //rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-
+        SoundManager.instance.PlaySoundFX(shootClip);
         
     }
 
