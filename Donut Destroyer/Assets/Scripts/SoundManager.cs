@@ -6,7 +6,7 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance;
 
-    public AudioSource soundFX, audioTheme;
+    public AudioSource soundFX, audioTheme, shootFX;
 
     public AudioClip soundTrack;
     void Awake()
@@ -38,5 +38,13 @@ public class SoundManager : MonoBehaviour
         soundFX.volume = Random.Range(.5f, .7f);
         soundFX.pitch = Random.Range(.8f, 1);
         soundFX.Play();
+    }
+
+    public void PlayShootFX(AudioClip clip)
+    {
+        shootFX.clip = clip;
+        shootFX.volume = Random.Range(.5f, .7f);
+        shootFX.pitch = Random.Range(.8f, 1);
+        shootFX.Play();
     }
 }
