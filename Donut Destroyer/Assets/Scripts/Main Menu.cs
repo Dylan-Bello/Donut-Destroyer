@@ -1,39 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
 
-
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    void QuitGame()
+    {
 
 
-        public void QuitGame()
-        {
+        Debug.Log("QUIT!");
+        Application.Quit();
+        Endgame();
+    }
+    void Endgame()
+    {
 
-
-            Debug.Log("QUIT!");
-            Application.quit();
-            Endgame();
-
-            public void Endgame()
-            {
-
-
-#if UNITY_EDITOR
+        #if UNITY_EDITOR
 
           UnityEditor.EditorApplication.isPlaying = false;
-#endif
+        #endif
 
-
-            }
-
-
-
-        }
     }
+
+
+
+       
 }
