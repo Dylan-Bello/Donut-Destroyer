@@ -48,6 +48,7 @@ public class PlayerHealthManager : MonoBehaviour
     {
         currentHealth -= damageToTake;
         SoundManager.instance.PlaySoundFX(hitClip);
+        Destroy(GameObject.Find("Health Box").transform.GetChild(0).gameObject);
         //healthBar.SetHealth(playerCurrentHealth);
     }
 
