@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32683 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32698 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,538 +11,369 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/wsignal2/Documents/GitHub/Donut-Destroyer/Donut Destroyer
+C:/Users/dbello5/Documents/GitHub/Donut-Destroyer/Donut Destroyer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52502
-Successfully changed project path to: C:/Users/wsignal2/Documents/GitHub/Donut-Destroyer/Donut Destroyer
-C:/Users/wsignal2/Documents/GitHub/Donut-Destroyer/Donut Destroyer
+54504
+Successfully changed project path to: C:/Users/dbello5/Documents/GitHub/Donut-Destroyer/Donut Destroyer
+C:/Users/dbello5/Documents/GitHub/Donut-Destroyer/Donut Destroyer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/wsignal2/Documents/GitHub/Donut-Destroyer/Donut Destroyer/Assets
+[Subsystems] Discovering subsystems at path C:/Users/dbello5/Documents/GitHub/Donut-Destroyer/Donut Destroyer/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     4053 MB
+    VRAM:     8088 MB
     Driver:   26.21.14.3200
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001900 seconds.
+Registered in 0.001455 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.253 seconds
+- Completed reload, in  1.948 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001117 seconds.
+Registered in 0.000907 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000287771B0020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-0000025E7B0AB030 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287768D8C00 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000025E7A9E0150 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776CB0990 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000025E7AE449E0 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776CB5020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-0000025E7AFE2020 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771860B0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000025CE0F94620 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771860B0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000025E7AD31020 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771DF640 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000025CE1241E30 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287773267B0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000025E7AD41630 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771F6010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000025E7B0C9C40 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877720A910 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000025E7AEFA300 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B696E20 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000025E7B0C9C40 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287773453C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-0000025CE0EE0C40 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777231920 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-0000025E7B7069B0 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771F6010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-0000025E7AD41630 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776A36420 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-0000025E7B7A6EE0 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B6A50A0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000025E7AD55650 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777052010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000025E7B487070 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776C370A0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-0000025E7AC089E0 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877BBD7010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-0000025CE0B9F010 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776C370A0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-0000025E7B0DB050 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776EC7DE0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-0000025E7B0296F0 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877BBD7010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000025CE0B9F010 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B996C30 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000025CE0608630 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877BAA8030 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000025E7AFE2020 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C2D3E00 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-0000025E7ACDC470 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C413640 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-0000025CE060DA40 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B7A44B0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-0000025CE160B450 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776946020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-0000025CE0BCCE30 doesn't match image C:\Users\dbello5\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.935 seconds
+- Completed reload, in  0.812 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1841 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.2 MB.
 System memory in use after: 87.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2289.
-Total: 3.857100 ms (FindLiveObjects: 0.173900 ms CreateObjectMapping: 0.079700 ms MarkObjects: 3.494000 ms  DeleteObjects: 0.108100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 1.893200 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.599300 ms  DeleteObjects: 0.078000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Level/Corner Road 2-1.png.png
-  artifactKey: Guid(c575be13eba81da45ab5c7ff9398d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Corner Road 2-1.png.png using Guid(c575be13eba81da45ab5c7ff9398d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a95403a65c42233116d57e6079d4d64') in 0.123043 seconds
-  Import took 0.127573 seconds .
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e31676444075d60ca220991b7aaf07f') in 0.086221 seconds
+  Import took 0.088965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Art/Level/Road 1-1.png.png
-  artifactKey: Guid(a335eb57516278d4eb8b746489d65c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Road 1-1.png.png using Guid(a335eb57516278d4eb8b746489d65c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e645e1805c89232d74a9a1e2b71b4') in 0.012120 seconds
-  Import took 0.015170 seconds .
+  Time since last request: 10.388941 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c6539f18ed14446ad786b0cd513966') in 0.009273 seconds
+  Import took 0.012275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004830 seconds.
-  path: Assets/Art/Level/Road 1-1.png.png
-  artifactKey: Guid(a335eb57516278d4eb8b746489d65c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Road 1-1.png.png using Guid(a335eb57516278d4eb8b746489d65c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e645e1805c89232d74a9a1e2b71b4') in 0.013672 seconds
-  Import took 0.016782 seconds .
+  Time since last request: 0.004934 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c6539f18ed14446ad786b0cd513966') in 0.010259 seconds
+  Import took 0.014175 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.393039 seconds.
-  path: Assets/Art/Level
-  artifactKey: Guid(cfcd5541d1ca72347bd24d7e4480168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level using Guid(cfcd5541d1ca72347bd24d7e4480168d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3cf7d5e6cf929c9811b4aec10379ff') in 0.002345 seconds
-  Import took 0.005341 seconds .
+  Time since last request: 27.964123 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ae4a68997ddb740c516e82d651ea7') in 0.008199 seconds
+  Import took 0.011254 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.288426 seconds.
-  path: Assets/Art/Sprites/Donuts
-  artifactKey: Guid(0f26f28931d72664ebbc5c76e89de27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Donuts using Guid(0f26f28931d72664ebbc5c76e89de27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe7764b2182e67fe52c7380e9de3418') in 0.002476 seconds
-  Import took 0.005404 seconds .
+  Time since last request: 0.006827 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ae4a68997ddb740c516e82d651ea7') in 0.008785 seconds
+  Import took 0.012217 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.122185 seconds.
-  path: Assets/Art/Sprites/Donuts/Donut1.png
-  artifactKey: Guid(6a548c0d27815ee439afd25aaa9bc15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Donuts/Donut1.png using Guid(6a548c0d27815ee439afd25aaa9bc15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ecfc298fa4e948a56f42a32cb9ad69') in 0.018903 seconds
-  Import took 0.025260 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.2 MB.
-System memory in use after: 53.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 2.341500 ms (FindLiveObjects: 0.274700 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.946300 ms  DeleteObjects: 0.017000 ms)
+  Time since last request: 27.254944 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0faa0d328b706e2e84a10b22b77118') in 0.010080 seconds
+  Import took 0.013259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1156.012201 seconds.
-  path: Assets/Donut 3-1.png.png
-  artifactKey: Guid(12e5c6eda9fc89a4fa6317004af2ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donut 3-1.png.png using Guid(12e5c6eda9fc89a4fa6317004af2ebbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443f0ce50c29aa447bba804443e8304c') in 0.018047 seconds
-  Import took 0.022684 seconds .
+  Time since last request: 0.005817 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0faa0d328b706e2e84a10b22b77118') in 0.010491 seconds
+  Import took 0.013932 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Donut 2-1.png.png
-  artifactKey: Guid(21526ae59c9d3e24cae7ff6827b7e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Donut 2-1.png.png using Guid(21526ae59c9d3e24cae7ff6827b7e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a562ab9aaac2860ee6f45f4d1bbbe37b') in 0.008443 seconds
-  Import took 0.011493 seconds .
+  Time since last request: 3.334063 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7859811f5f0ef351e8069878c272388c') in 0.009059 seconds
+  Import took 0.012768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.634828 seconds.
-  path: Assets/Art/Sprites/Steve/Steve (Idle).png
-  artifactKey: Guid(3b6b90e26f677a94d832f2e9da9ca0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Steve/Steve (Idle).png using Guid(3b6b90e26f677a94d832f2e9da9ca0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e9a76b16f4cecdce9e044b352a1c8b') in 0.024472 seconds
-  Import took 0.027694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Art/Sprites/Steve/Steve (Running).png
-  artifactKey: Guid(49149b8cf81ff6d4db674127a360c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/Steve/Steve (Running).png using Guid(49149b8cf81ff6d4db674127a360c81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce5177c41948df840526c881feecdad') in 0.061929 seconds
-  Import took 0.064555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.965078 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aa45dcdc8f70c5b45b254f2a1ffc95') in 0.091947 seconds
-  Import took 0.095761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Joystick Pack/Examples/Ground.mat
-  artifactKey: Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Examples/Ground.mat using Guid(c569c280f0eb52a49a7b2a6b8b0cbcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48eaf1fbe355c45998a77a59e5cf3889') in 0.015248 seconds
-  Import took 0.018433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Joystick Pack/Examples/Player.mat
-  artifactKey: Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Examples/Player.mat using Guid(59e4faf24927edf4a82f463ad16f1c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e970c8fda281bbea826e21197163767b') in 0.009392 seconds
-  Import took 0.013241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.117084 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
-  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd3d92a1ce7fb51be1ccd88596667ec') in 0.017338 seconds
-  Import took 0.020557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Joystick Pack/Prefabs/Variable Joystick.prefab
-  artifactKey: Guid(ec536a7718376554185e4a856d5ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Prefabs/Variable Joystick.prefab using Guid(ec536a7718376554185e4a856d5ae230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89225c026a824273df572b138c0141ae') in 0.011902 seconds
-  Import took 0.014744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Prefabs/Characters/Steve.prefab
-  artifactKey: Guid(f2b74edef30bdc54d96bfe40ec879c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/Steve.prefab using Guid(f2b74edef30bdc54d96bfe40ec879c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96e11c8b2b86d35a4a2a00ac1def1f5') in 0.035748 seconds
-  Import took 0.038771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
-  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ea4f06b66dafb59306730f822150f1') in 0.005587 seconds
-  Import took 0.008622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Prefabs/Spawners/Enemy Spawn Point.prefab
-  artifactKey: Guid(081466426ef52a740b023cd7a37996f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Spawners/Enemy Spawn Point.prefab using Guid(081466426ef52a740b023cd7a37996f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a4dd7708b026175e3f07e382f3b6e') in 0.007671 seconds
-  Import took 0.011992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Prefabs/Joysticks/ShootJoystick.prefab
-  artifactKey: Guid(4a738566302d3da4abab8fcf8e8bc78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Joysticks/ShootJoystick.prefab using Guid(4a738566302d3da4abab8fcf8e8bc78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e7a001d322fd4ddb33c08aa37ff1c9') in 0.005541 seconds
-  Import took 0.008453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab
-  artifactKey: Guid(56fae09712773584fb63896d473a98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab using Guid(56fae09712773584fb63896d473a98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b286739927f8cde850e3ab075ee5a') in 0.006296 seconds
-  Import took 0.009259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
+  Time since last request: 7.493084 seconds.
   path: Assets/Prefabs/Characters/Donut1.prefab
   artifactKey: Guid(48b5de7214fc8604fba5347be15b3f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/Donut1.prefab using Guid(48b5de7214fc8604fba5347be15b3f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6be1db81560620eddc800d49231ee6') in 0.015121 seconds
-  Import took 0.018627 seconds .
+Start importing Assets/Prefabs/Characters/Donut1.prefab using Guid(48b5de7214fc8604fba5347be15b3f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa18054136bfc122132fa2a9a79cab86') in 0.009907 seconds
+  Import took 0.013155 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab
-  artifactKey: Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab using Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61df0e90b1a2cf72f457cf4a79a82c7') in 0.005483 seconds
-  Import took 0.009009 seconds .
+  Time since last request: 26.171349 seconds.
+  path: Assets/Prefabs/Characters/Donut1 1.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut1 1.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d34c094933e69de210c754bd971aef9') in 0.009971 seconds
+  Import took 0.013678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Joystick Pack/Prefabs/Floating Joystick.prefab
-  artifactKey: Guid(0d230cc8be529a542a08cb878ab14b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Prefabs/Floating Joystick.prefab using Guid(0d230cc8be529a542a08cb878ab14b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ddc9e6ec0a7254877918e082203d4') in 0.008074 seconds
-  Import took 0.011749 seconds .
+  Time since last request: 28.243010 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3325a689a1f6f3d4f259b8efbcd051c4') in 0.010510 seconds
+  Import took 0.015050 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Prefabs/Projectiles/Coffee Blast.prefab
-  artifactKey: Guid(9c11cbb1ed2071249b2d82c4940aa7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Projectiles/Coffee Blast.prefab using Guid(9c11cbb1ed2071249b2d82c4940aa7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ea80501bed0f04a394121e3517d377') in 0.012814 seconds
-  Import took 0.016225 seconds .
+  Time since last request: 9.341711 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450b127549d0630372a196ae80d9e313') in 0.009315 seconds
+  Import took 0.012864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Prefabs/Joysticks/MoveJoystick.prefab
-  artifactKey: Guid(a2ae050556d217b45bae2291de90f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Joysticks/MoveJoystick.prefab using Guid(a2ae050556d217b45bae2291de90f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3428f137dd711e3a45b82128788b4cf2') in 0.004882 seconds
-  Import took 0.008281 seconds .
+  Time since last request: 1.199574 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf1625204f9b48c2d4510562bb24c3f') in 0.009892 seconds
+  Import took 0.012936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003134 seconds.
-  path: Assets/Prefabs/Joysticks/MoveJoystick.prefab
-  artifactKey: Guid(a2ae050556d217b45bae2291de90f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Joysticks/MoveJoystick.prefab using Guid(a2ae050556d217b45bae2291de90f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3428f137dd711e3a45b82128788b4cf2') in 0.004773 seconds
-  Import took 0.008077 seconds .
+  Time since last request: 2.403827 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc44cacf7c53a5f70b1db4218c65097') in 0.009821 seconds
+  Import took 0.013114 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.593527 seconds.
-  path: Assets/Art/Level/Office-1.png.png
-  artifactKey: Guid(5b2586701e5853543913bf034beef0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Office-1.png.png using Guid(5b2586701e5853543913bf034beef0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9354025e575d5e94d64fd2d73c3e8591') in 0.012857 seconds
-  Import took 0.016342 seconds .
+  Time since last request: 4.618582 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865fe75ccc109ee4b0ea5058ce303a15') in 0.012174 seconds
+  Import took 0.015682 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.780402 seconds.
-  path: Assets/Art/Level/Grass.png
-  artifactKey: Guid(cb9046ba377e7154baac9c05f7e1eb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Grass.png using Guid(cb9046ba377e7154baac9c05f7e1eb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24b2310e7f9af4399b32094859e275e') in 0.013107 seconds
-  Import took 0.016393 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001059 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002877DA79020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776525F20 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287767E8010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877DF05430 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287770F9010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776FFBB80 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877BE88620 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C36B010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877DE85700 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877D684020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877DE85700 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777100620 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877CB33030 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877CB33030 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B7A64C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877D7856D0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C5F3020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777100620 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287771B0020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776A33400 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C95E030 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B765010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877730CBA0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877BAA8030 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C3CF800 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777320BB0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287767E8010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B961010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.5 MB.
-System memory in use after: 89.6 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 2.210700 ms (FindLiveObjects: 0.306000 ms CreateObjectMapping: 0.112800 ms MarkObjects: 1.747600 ms  DeleteObjects: 0.043100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001026 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002877D3C7150 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777102630 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E3089C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877DF06140 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000287772FEC30 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877D3F9180 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E343130 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C4950D0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877D3F9180 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877D20E020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028776856FA0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E3089C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E300130 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B8DD020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000285CE436270 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877678C040 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C130010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E3089C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877CB1C020 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E3EE4D0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E252BB0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877B765010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C36B010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000028777307640 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C3CF080 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877CD07A20 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877E3089C0 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002877C36B010 doesn't match image C:\Users\wsignal2\Documents\GitHub\Donut-Destroyer\Donut Destroyer\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.7 MB.
-System memory in use after: 89.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 2.312600 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.027300 ms  DeleteObjects: 0.017500 ms)
+  Time since last request: 1.397514 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974fe98224d24c216156fd1cfaaa9468') in 0.009527 seconds
+  Import took 0.013443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1526.494109 seconds.
-  path: Assets/Art/Level/Building two-1.png.png
-  artifactKey: Guid(e0f05545b4e00b546b87bd509a658fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Building two-1.png.png using Guid(e0f05545b4e00b546b87bd509a658fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c884ae7318a3714193dcb273e5a57a') in 0.053149 seconds
-  Import took 0.056785 seconds .
+  Time since last request: 6.855254 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bcf0264ef817f29d3af145b931c454') in 0.009678 seconds
+  Import took 0.013331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Art/Level/building 1-1.png.png
-  artifactKey: Guid(324d4c7a51afbcd44904395fbbcc6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/building 1-1.png.png using Guid(324d4c7a51afbcd44904395fbbcc6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe8f4dc032820627ef8f71dc2ebdab7') in 0.008991 seconds
-  Import took 0.012411 seconds .
+  Time since last request: 3.218402 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96a60b7c48fc36e2b9c807bb73bdff5') in 0.009362 seconds
+  Import took 0.012811 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Art/Level/Building 3-1.png.png
-  artifactKey: Guid(6b540f397b82fab42ab4ac6093cb4569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Level/Building 3-1.png.png using Guid(6b540f397b82fab42ab4ac6093cb4569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab0f473e160489c167d0038cc239dbb') in 0.015749 seconds
-  Import took 0.018908 seconds .
+  Time since last request: 4.627409 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db030f06ecfabf2c6b3dec3e184fa9c0') in 0.008209 seconds
+  Import took 0.011648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609969 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e06255dafe885832ec3c43d6bcd7a7a') in 0.008996 seconds
+  Import took 0.012283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.002394 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5991347d64ec25ded0e491303f57c03d') in 0.009224 seconds
+  Import took 0.012359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.633698 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d62b7a14f0bb18deb44ca0efa0bbf08') in 0.009470 seconds
+  Import took 0.012813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.019742 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c9d17dd488ecbd5ffff48e2df9a8c2') in 0.009435 seconds
+  Import took 0.012567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.498254 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38be8581ef5809b11fc3998d37968c6') in 0.008765 seconds
+  Import took 0.011910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.074493 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cd24be7a03666ba9cb5dc55bdbbc54') in 0.008117 seconds
+  Import took 0.011239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.530847 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef08cd04aac179317ca262ce2226cba9') in 0.009363 seconds
+  Import took 0.012646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.781631 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea8a9a8db7c33cc214bdee7b88ca5f') in 0.009173 seconds
+  Import took 0.012596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.114703 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9a9014494d483e70fc15a4deeebd25') in 0.012655 seconds
+  Import took 0.016259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.214165 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42660db208c84d106977f396c97cfb46') in 0.010068 seconds
+  Import took 0.013417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.598784 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92ef4f2809de6f03b50bce2ad3a0236') in 0.009524 seconds
+  Import took 0.013029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.061946 seconds.
+  path: Assets/Prefabs/Characters/Donut2.prefab
+  artifactKey: Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Donut2.prefab using Guid(70cf1fc9fbc4805479079c4c4fcecabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcecb58edf302dec0f77dafbb9d610ca') in 0.010188 seconds
+  Import took 0.013905 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

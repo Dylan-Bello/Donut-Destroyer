@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6927115421491674827}
   - component: {fileID: 6927115421491674824}
   - component: {fileID: 7034846103343982816}
-  - component: {fileID: 2182602248428792615}
+  - component: {fileID: 984357391021498458}
   - component: {fileID: 45244865230711276}
   - component: {fileID: 1724077658619380144}
   m_Layer: 0
@@ -149,8 +149,8 @@ PolygonCollider2D:
       - {x: 0.25, y: -1.51}
       - {x: 0.41, y: -1.37}
       - {x: 0.52, y: -1.1899999}
---- !u!58 &2182602248428792615
-CircleCollider2D:
+--- !u!61 &984357391021498458
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -162,9 +162,19 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.027590036, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 3.2}
+    newSize: {x: 3.2, y: 3.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 1.6
+  m_Size: {x: 2.0135093, y: 3.4759283}
+  m_EdgeRadius: 0
 --- !u!50 &45244865230711276
 Rigidbody2D:
   serializedVersion: 4
@@ -199,10 +209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  rotationSpeed: 10
+  rotationSpeed: 30
   startingHealth: 20
-  currentHealth: 0
-  damageToTake: 0
-  scoreValue: 10
+  currentHealth: -9
   xpValue: 1
   deathClip: {fileID: 8300000, guid: f33d62feb01ca5d4995774807063f27d, type: 3}

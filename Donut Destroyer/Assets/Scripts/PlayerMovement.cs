@@ -5,23 +5,23 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
+
     public float xp = 0;
     public float xpForNextLevel = 10;
     public int level = 1;
 
     public float moveSpeed = 7f;
+    private Vector2 moveVelocity;
 
     private PlayerHealthManager health;
-    //public int health = 10;
     
     public Rigidbody2D player;
-    //public Camera cam;
     public Animator anim;
     public AudioClip shootClip;
 
     public GameObject bulletPrefab;
     public Transform firePoint;
-    //public float fireDelay = 0.5f;
+    
     public float bulletForce = 10f;
     public float fireRate = 0.5F;
     private float nextFire = 0.0F;
@@ -29,12 +29,10 @@ public class PlayerMovement : MonoBehaviour
     public My_Joystick moveJoystick;
     public My_Joystick shootJoystick;
 
-    private Vector2 moveVelocity;
-
-    //private bool hit = true;
-
     [HideInInspector]
     public bool canShoot = true;
+
+
 
     private void Start()
     {
@@ -71,8 +69,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        //Bounds
-        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, ., ), MathfClamp(transform.position.y., ));
+       
     }
 
     private void FixedUpdate()
@@ -109,8 +106,6 @@ public class PlayerMovement : MonoBehaviour
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        //rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         SoundManager.instance.PlayShootFX(shootClip);
         
     }
@@ -126,6 +121,8 @@ public class PlayerMovement : MonoBehaviour
         xp = 0f;
         level++;
 
+        ScoreManager.levelValue += level;
+
         Debug.Log("level" + level);
         SetXpForNextLevel();
     }
@@ -137,51 +134,5 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    /*IEnumerator HitBoxOff()
-    {
-        hit = false;
-        yield return new WaitForSeconds(1.5f);
-        hit = true;
-    }
-
-    void OnTriggerEnter2D(Collider2D target)
-    {
-        if(target.tag == "Enemy")
-        {
-            if (hit)
-            {
-                StartCoroutine(HitBoxOff());
-                health--;
-            }
-            
-        }
-    }
-    Vector2 movement;
-    Vector2 mousePos;
-
-
-
-    // Input Methods
-   void Update()
-    {
-        movement.x = joystick.Horizontal;
-        movement.y = joystick.Vertical;
-
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-
-        
-    }
- 
-    // Functions
-    private void FixedUpdate()
-    {
-        
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        //isRunning = true;
-
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
-    }*/
+   
 }

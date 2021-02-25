@@ -10,10 +10,7 @@ public class EnemyFollow : MonoBehaviour
 
     public int startingHealth = 20;
     public int currentHealth;
-    public int damageToTake;
-
-
-    public int scoreValue = 10;
+    
     public int xpValue = 1;
 
     private Transform playerPos;
@@ -44,7 +41,7 @@ public class EnemyFollow : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            //ScoreManager.score += scoreValue;
+            
             Destroy(this.gameObject);
             SoundManager.instance.PlaySoundFX(deathClip);
             playerPos.GetComponent<PlayerMovement>().GainXP(xpValue);
