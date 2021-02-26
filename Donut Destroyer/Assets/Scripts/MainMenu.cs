@@ -6,6 +6,7 @@ using UnityEditor;
 
 public class MainMenu : MonoBehaviour
 {
+    
 
     public void PlayGame()
     {
@@ -18,6 +19,8 @@ public class MainMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
         Endgame();
+
+        
     }
     public void Endgame()
     {
@@ -25,9 +28,11 @@ public class MainMenu : MonoBehaviour
         #if UNITY_EDITOR
 
                 UnityEditor.EditorApplication.isPlaying = false;
-        #endif
+#endif
 
     }
+
+    
 
 
 

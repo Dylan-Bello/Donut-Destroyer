@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthManager : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class PlayerHealthManager : MonoBehaviour
 
     public AudioClip hitClip;
     public AudioClip deathClip;
-
 
     //public Healthbar healthBar;
 
@@ -32,7 +32,7 @@ public class PlayerHealthManager : MonoBehaviour
         {
             SoundManager.instance.PlaySoundFX(deathClip);
             Destroy(this.gameObject);
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
 
         if (currentHealth > startingHealth)
@@ -61,6 +61,8 @@ public class PlayerHealthManager : MonoBehaviour
     {
         currentHealth = startingHealth;
     }
+
+
 
     
 

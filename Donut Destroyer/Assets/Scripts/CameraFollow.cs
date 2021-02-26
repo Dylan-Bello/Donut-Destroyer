@@ -11,21 +11,7 @@ public class CameraFollow : MonoBehaviour
 
     public Vector2 posOffset;
 
-    //private Vector3 velocity;
-
-
-
-    //public Transform playerCamera;
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+   
     void FixedUpdate()
     {
         //Cameras current position
@@ -41,16 +27,8 @@ public class CameraFollow : MonoBehaviour
         //move topwards player
         transform.position = Vector3.Lerp(startPos, endPos, timeOffset * Time.deltaTime);
 
-       // transform.position = new Vector3(
-            //Mathf.Clamp(endPos.x, -700f, 920f),
-            //Mathf.Clamp(endPos.y, -50f, 185f), transform.position.z);
+       
     }
 
 
-    /* if(playerCamera != null)
-     {
-         Vector3 playerPos = playerCamera.position;
-         playerPos.z = transform.position.z;
-         transform.position = playerPos;
-     }*/
 }

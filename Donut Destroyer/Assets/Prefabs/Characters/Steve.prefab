@@ -97,7 +97,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451046788636067884}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   xp: 0
   xpForNextLevel: 10
   level: 1
-  moveSpeed: 5
+  moveSpeed: 8
   player: {fileID: 451046788636067888}
   anim: {fileID: 0}
   shootClip: {fileID: 8300000, guid: 5a25dcb855631bd47942dafb6913112a, type: 3}

@@ -52,8 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Rotation();
-
+       
         //Shoot Function
         if (Input.GetMouseButton(0) && (Time.time > nextFire) && canShoot)
         {
@@ -75,6 +74,8 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Movement();
+
+        Rotation();
     }
 
     void Movement()
@@ -134,5 +135,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-   
+
+    
+
+
+
 }

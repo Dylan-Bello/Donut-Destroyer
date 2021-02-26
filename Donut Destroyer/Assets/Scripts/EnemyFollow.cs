@@ -13,8 +13,13 @@ public class EnemyFollow : MonoBehaviour
     
     public int xpValue = 1;
 
+    
+
     private Transform playerPos;
     private Rigidbody2D rb;
+
+    
+
 
     public AudioClip deathClip;
 
@@ -24,19 +29,17 @@ public class EnemyFollow : MonoBehaviour
         playerPos = GameObject.FindGameObjectWithTag("Player").transform;
         currentHealth = startingHealth;
 
+        rb = GetComponent<Rigidbody2D>();
+
         
-
     }
 
-    private void Start()
-    {
-        rb = this.GetComponent<Rigidbody2D>();
-    }
+
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Vector2.Distance(transform.position, playerPos.position) > 2f)
+        if (Vector2.Distance(transform.position, playerPos.position) > 1f)
             transform.position = Vector2.MoveTowards(transform.position, playerPos.position, moveSpeed * Time.deltaTime);
 
         if (currentHealth <= 0)
@@ -52,8 +55,8 @@ public class EnemyFollow : MonoBehaviour
         Vector3 rotation = new Vector3(0, 0, angle);
 
         UpdateRotation(rotation);
-        
 
+        
     }
 
     void UpdateRotation(Vector3 angle)
